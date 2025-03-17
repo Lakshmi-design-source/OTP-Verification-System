@@ -1,6 +1,5 @@
 import random                   # Import the random module for generating random numbers
 import smtplib                  # Import the smtplib module for sending emails
-import time                     # Import the time module (not used in this code)
 import tkinter as tk           # Import tkinter for creating the GUI
 from tkinter import messagebox   # Import messagebox for pop-up messages
 
@@ -16,8 +15,8 @@ class OTPVerifier:
     def send_otp_email(self):    # Function to send the OTP via email
         smtp_server = 'smtp.gmail.com'  # Gmail SMTP server
         smtp_port = 587              # Port for TLS
-        sender_email = 'your_mail'   # Sender's email address (replace with your email)
-        password = 'your_password'    # Sender's email password (replace with your password)
+        sender_email = 'Sender's email address'   # replace with your email
+        password = 'Sender's email password'    # replace with your password
 
         subject = 'OTP Verification'  # Email subject
         body = f'Your OTP is: {self.generated_otp}'  # Email body containing the OTP
