@@ -39,7 +39,7 @@ class OTPVerifier:
 
 # Class for the OTP Application GUI
 class OTPApplication:
-    def __init__(self, root):      # Initialize with the main window (root)
+    def __init__(self, root):      # Initialize with the main window 
         self.root = root            # Store the root window
         self.root.title("OTP Verification System")  # Set window title
         self.root.geometry("500x400")  # Set window size
@@ -93,5 +93,5 @@ def main():        # Main function to run the application
     app = OTPApplication(root)  # Initialize the OTP Application
     root.mainloop()  # Start the GUI loop to wait for user interaction
 
-if __name__ == "__main__":  # Check if the script is being run as the main program
-    main()  # Call the main function to execute the application
+if __name__ == "__main__":
+    main()
