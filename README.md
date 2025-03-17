@@ -13,8 +13,8 @@ The OTP Verification System is a simple yet effective Python application designe
 3. Sending OTP: The system sends the generated OTP to the provided email address.
 4. User Input: The user receives the email, retrieves the OTP, and enters it into the system.
 5. Validation: The system compares the entered OTP against the generated OTP.
-  * Success: If it matches, access is granted, and the user is notified.
-  * Failure: If it does not match, access is denied, and the user is informed.
+   *  Success: If it matches, access is granted, and the user is notified.
+   *  Failure: If it does not match, access is denied, and the user is informed.
 
 # Technologies Used
 * Python: The primary programming language for implementing the OTP generation and validation logic.
